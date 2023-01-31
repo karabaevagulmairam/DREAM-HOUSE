@@ -1,0 +1,101 @@
+.have{
+  &__content{
+    margin: 0 auto;
+    width: 1000px;
+    background: #131313;
+    padding: 15px 180px;
+    position: absolute;
+    top: -30%;
+    left: 24%;
+  }
+  &__title{
+    font-family: 'Yeseva One',sans-serif;
+    font-weight: 400;
+    margin-top: 18px;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 45px;
+  }
+  &__form {
+    display: flex;
+    column-gap: 147px;
+    &-label{
+      display: flex;
+      flex-direction: column;
+      row-gap: 7px;
+    }
+    &-title{
+      font-weight: 400;
+      font-size: 13px;
+      color: rgba(255, 255, 255, 0.5);
+    }
+    &-input{
+      color: white;
+      background: #131313;
+      padding: 10px 30px 10px 0;
+      border: none;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+      &::placeholder{
+        font-weight: 400;
+        font-size: 14px;
+        color: #FFFFFF;
+
+      }
+    }
+    &-area{
+      width: 100%;
+      height: 40px;
+      background: #131313;
+      border: none;
+      resize: none;
+      outline: none;
+      color: white;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+      &::placeholder {
+        font-weight: 400;
+        font-size: 14px;
+        color: #FFFFFF;
+      }
+    }
+    &-checkbox{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      column-gap: 12px;
+      padding-top: 33px;
+    }
+    &-text{
+      font-weight: 400;
+      font-size: 14px;
+      color: #FFFFFF;
+    }
+    &-btns{
+      text-align: center;
+    }
+    &-btn{
+      font-weight: 400;
+      font-size: 13px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      padding: 20px 70px;
+      margin: 50px ;
+      border:1px solid #E3B873;
+      background: #E3B873;
+      box-shadow: 0 15px 15px rgba(227, 184, 115, 0.15);
+      border-radius: 2px;
+      cursor: pointer;
+      &:hover{
+        background: #363636;
+        border: 1px solid ;
+        border-radius: 2px;
+        box-shadow: none;
+      }
+    }
+  }
+}
+.git{
+  margin: 48px 0;
+}

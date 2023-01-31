@@ -1,0 +1,41 @@
+.gis{
+  padding: 320px 0 ;
+  background: url("../img/bg (2).png")center/cover no-repeat;
+  height: 1050px;
+  position: relative;
+  &::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(24, 24, 24, 0.9) 3.47%, rgba(24, 24, 24, 0.72) 100%);
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  &__content{
+    position: relative;
+    z-index: 2;
+  }
+  &__title{
+    font-family: 'Yeseva One',sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #E3B873;
+  }
+  &__icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 15px;
+    margin-top: 26px;
+  }
+  &__card{
+    position: relative;
+    left: 10%;
+    bottom: -40px;
+    z-index: 2;
+  }
+}

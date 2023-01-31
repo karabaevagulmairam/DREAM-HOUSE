@@ -1,0 +1,63 @@
+.cards{
+  padding-bottom: 311px;
+  &__row{
+    padding-top: 31px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+  }
+  &__box{
+    width: calc(33.33333% - 20px);
+    position: relative;
+    &-img{
+      width: 100%;
+    }
+    &-card{
+      width: 330px;
+      height: 335px;
+      padding: 25px 30px 49px;
+      background: #FFFFFF;
+      box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+      position: absolute;
+      bottom: -50%;
+      left: 31px;
+    }
+    &-title{
+      font-family: 'Yeseva One',sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      color: #363636;
+      margin-bottom: 13px;
+    }
+    &-desc{
+      padding-bottom: 23px;
+    }
+    &-text{
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 27px;
+      color: #959595;
+      padding-bottom: 6px;
+    }
+    &-btn{
+      font-family: 'Yeseva One',sans-serif;
+      font-weight: 400;
+      font-size: 18px;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      padding: 17px 21px;
+      border: 1px solid #E3B873;
+      background: #E3B873;
+      box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+      cursor: pointer;
+      &:hover{
+        background: #363636;
+        border: 1px solid #363636;
+        border-radius: 2px;
+        box-shadow: none;
+      }
+    }
+  }
+
+}

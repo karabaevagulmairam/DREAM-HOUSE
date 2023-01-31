@@ -1,0 +1,83 @@
+.rostov{
+  background: #131313;
+  padding: 107px 0 92px ;
+  &__tabs{
+    display: flex;
+    flex-direction: column;
+    row-gap: 46px;
+    &-top{
+      display: flex;
+      column-gap: 60px;
+      justify-content: flex-end;
+    }
+    &-item{
+      font-family: 'Yeseva One',sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      text-transform: uppercase;
+      color: rgba(255, 255, 255, 0.3);
+      cursor: pointer;
+      &.active{
+        color: #E3B873;
+        text-decoration: underline #E3B873;
+        text-underline-offset: 7px;
+      }
+    }
+    &-bottom{
+      display: none;
+      column-gap: 50px;
+      &.active{
+        display: flex;
+      }
+    }
+  }
+  &__left{
+    width: 40%;
+  }
+  &__title{
+    font-family: 'Yeseva One',sans-serif;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    color: #E3B873;
+  }
+  &__subtitle{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin: 34px 0 42px;
+  }
+  &__cards{
+    display: flex;
+    column-gap: 34px;
+  }
+  &__card{
+    display: flex;
+    flex-direction: column;
+    row-gap: 9px;
+    &-title{
+      font-family: 'Yeseva One',sans-serif;
+      font-weight: 400;
+      font-size: 18px;
+      text-transform: uppercase;
+      color: #E3B873;
+    }
+    &-subtitle{
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 21px;
+      color: #FFFFFF;
+      margin-bottom: 34px;
+    }
+  }
+}
+
+.left{
+  padding-left: 31px;
+}
+.left1{
+  padding-left: 40px;
+}

@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Yeseva+One&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: 'Nunito Sans',sans-serif;
+  transition: .3s all;
+}
+
+.container{
+    max-width: 1236px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-small{
+  max-width: 1171px ;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.title{
+  font-family: 'Yeseva One',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #181818;
+}
+.icon{
+  padding-top: 13px;
+  text-align: center;
+  position: relative;
+  span{
+    &::after{
+      content: '';
+      width: 32px;
+      height: 2px;
+      background: #E3B873;
+      border-radius: 30px;
+      position: absolute;
+      top: 50%;
+      right: 45%;
+    }
+    &::before{
+      content: '';
+      width: 32px;
+      height: 2px;
+      background: #E3B873;
+      border-radius: 30px;
+      position: absolute;
+      top: 50%;
+      left: 45%;
+    }
+  }
+}
+
+@import "header";
+@import "begin";
+@import "rostov";
+@import "online";
+@import "form";
+@import "cards";
+@import "save";
+@import "img";
+@import "clients";
+@import "have";
+@import "gis";
+@import "overlay";

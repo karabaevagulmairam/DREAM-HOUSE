@@ -1,0 +1,134 @@
+.clients{
+  padding: 70px 0 450px;
+  position: relative;
+  &::before{
+    content: "";
+    background: url("../img/Frame.png");
+    width: 50%;
+    height: 776px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  &::after{
+    content: "";
+    background: url("../img/Frame-1.png");
+    width: 50%;
+    height: 776px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+  &__desc{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    color: #363636;
+    margin: 29px 0 44px;
+  }
+  &__card{
+    background: #fff;
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.04);
+    padding: 20px 31px 0 20px;
+    &-photo{
+      display: flex;
+      column-gap: 25px;
+      align-items: center;
+      margin-bottom: 20px;
+   }
+    &-img{
+      border-radius: 50%;
+    }
+    &-title{
+      font-family: 'Yeseva One',sans-serif;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 23px;
+      color: #181818;
+    }
+    &-text{
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 180%;
+      color: #959595;
+      margin-bottom: 63px;
+    }
+    &-cards{
+      display: flex;
+      align-items: center;
+      column-gap: 1px ;
+    }
+    &-l{
+      height: 54px;
+      padding: 11px 17px;
+      background: #E3B873;
+      box-shadow: 5px 5px 5px rgba(227, 184, 115, 0.5);
+      display: flex;
+      align-items: center;
+      column-gap: 15px;
+    }
+    &-desc{
+      font-family: 'Yeseva One',sans-serif;
+      font-weight: 400;
+      font-size: 17px;
+      color: #FFFFFF;
+    }
+  }
+}
+
+.team-next{
+  svg{
+    path{
+      fill: #E3B873;
+    }
+  }
+  cursor: pointer;
+}
+.team-prev{
+  svg{
+    path{
+      fill: #E3B873;
+    }
+  }
+  cursor: pointer;
+}
+
+.clientsSwiper{
+  margin-top: 20px;
+  padding: 30px 80px 50px;
+}
+
+.clientsSwiper .swiper-pagination{
+  bottom: 0;
+}
+
+.clientsSwiper .swiper-pagination-bullet{
+  background: #363636;
+  border-radius: 30px;
+}
+.clientsSwiper .swiper-pagination-bullet-active{
+  background: #E3B873;
+}
+
+//.teamSwiper{
+//  padding: 0 60px;
+//  position: relative;
+//  margin-top: 25px;
+//}
+
+.team-next{
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 6;
+}
+
+.team-prev{
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 6;
+}
